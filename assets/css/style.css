@@ -1,0 +1,176 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #777777;
+  background: white;
+  border: #dddddd;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/circles-dark.png)
+}
+
+header {
+  background: #ffffff;
+  padding: 25px;
+}
+
+nav {
+  float: right;
+}
+
+footer {
+  background-color: #666666;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  background: v;
+  float: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  position: relative;
+  top: 20px;
+  right: -200px;
+  background-color: teal;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Georgia', Times, Times New Roman, serif
+}
+
+a {
+  color: blue;
+}
+
+.container {
+  width: 1024px;
+  margin:auto;
+  background-color: white;
+  position: relative;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.hyperLink {
+  text-align: center;
+  box-sizing: border-box;
+  background: white;
+  position: relative;
+  
+}
+
+.jSantos {
+  text-align: center;
+  
+  padding: 10px;
+  box-sizing: border-box;
+  background: teal;
+  position: relative;
+  color: white;
+  top: -22px;
+  float: left;
+}
+/** contact ME info classes **/
+.nameResize {
+  width: 100%;
+  height: 25px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.emailResize {
+  width: 100%;
+  height: 25px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.messageResize {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  }
+
+.marginCenter {
+  margin: 0 auto;
+  max-width: auto;
+}
+
+.box-set {
+  position: static;
+  height: 400px;
+  background: darkgray;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+.portfolioSmallBox {
+  border: 2px solid black;
+
+}
+
+.absolutePos{
+  position: absolute;
+  height: 400px;
+  background: darkgray;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+}
+
+
