@@ -164,7 +164,7 @@ a {
 
 }
 
-.absolutePos{
+.rutgersInfo{
   position: absolute;
   height: 400px;
   background: darkgray;
@@ -172,9 +172,24 @@ a {
   height: 150px;
   background: #2db34a;
   border: 2px solid black;
+  top: 5%;
+  left: 21%;
+}
+
+.rockPaperScissors{
+  position: absolute;
+  height: 400px;
+  background: darkgray;
+  width: 150px;
+  height: 150px;
+  background: #2db34a;
+  border: 2px solid black;
+  top: 38%;
+  right: 56%;
 }
 
 
 .grayItOut {
   color: gray;
 }
+
